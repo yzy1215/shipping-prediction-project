@@ -1,4 +1,4 @@
-# Predicting the customer satisfaction
+# Predicting the shipment punctuaity
 # Import and load the data
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -117,7 +117,7 @@ def select_features(df, corr):
 
 
 def main():
-	data=pd.read_csv("/Users/yuziyi/Desktop/Train.csv",header =0)
+	data=pd.read_csv("Train.csv",header =0)
 
 	## preprocessing the data
 	X, y = define_xy(data)
