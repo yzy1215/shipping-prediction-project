@@ -1,3 +1,5 @@
+#THIS CODE IS MY OWN WORK, IT WAS WRITTEN WITHOUT CONSULTING CODE WRITTEN BY OTHERS.
+#Ziyi Yu
 # Predicting the shipment punctuaity
 # Import and load the data
 import pandas as pd
